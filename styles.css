@@ -541,7 +541,7 @@ I hope the freecodecamp team won't be mad at me :) */
   width: 0;
   height: 0;
 }
-/*Preloader*/
+/*Preloader
 .preloader {
   position: fixed;
   top: 0;
@@ -593,3 +593,4 @@ I hope the freecodecamp team won't be mad at me :) */
   100% { transform: rotate(360deg); }
 }
 
+*/
