@@ -548,7 +548,7 @@ I hope the freecodecamp team won't be mad at me :) */
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: 
   z-index: 9999;
   display: flex;
   flex-direction: column;
@@ -557,12 +557,28 @@ I hope the freecodecamp team won't be mad at me :) */
 }
 
 .spinner {
-  border: 5px solid #f3f3f3;
-  border-top: 5px solid #3498db;
+  border: 5px solid #9D8CA1;
+  border-top: 5px solid #9993B2;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   animation: spin 2s linear infinite;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #928DDD;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.hidden {
+  display: none;
 }
 
 .text {
