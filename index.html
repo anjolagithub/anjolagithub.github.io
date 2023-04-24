@@ -356,6 +356,12 @@
         backSpeed: 200,
         loop: true,
       });
+      window.addEventListener("load", function() {
+      setTimeout(function() {
+    var preloader = document.getElementById('preloader');
+    preloader.classList.add('hidden');
+  }, 3000);
+});
     </script>
     <script src="script.js"></script>
   </body>
